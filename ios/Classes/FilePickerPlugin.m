@@ -242,7 +242,7 @@
                 self->_eventSink([NSNumber numberWithBool:YES]);
             } else {
                 [indicator startAnimating];
-                [currentViewController showViewController:alert sender:nil];
+                // [currentViewController showViewController:alert sender:nil];
             }
             
         } else {
@@ -250,7 +250,7 @@
                 self->_eventSink([NSNumber numberWithBool:NO]);
             } else {
                 [indicator stopAnimating];
-                [alert dismissViewControllerAnimated:YES completion:nil];
+                // [alert dismissViewControllerAnimated:YES completion:nil];
             }
             
         }
