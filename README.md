@@ -15,7 +15,7 @@
 </p>
 
 # File Picker - Patch 
-Flutter plugin built over file_picker plugin as a patch for fixes 
+Flutter plugin built over <a href="https://github.com/miguelpruivo/flutter_file_picker">file_picker</a> plugin as a patch for fixes 
 1. Android- Crashes on picking multiple files
 2. iOS- Black screen after picking a file on iOS version < 14
 
