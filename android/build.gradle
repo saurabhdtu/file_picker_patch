@@ -1,4 +1,4 @@
-group 'com.mr.flutter.plugin.filepicker_patch'
+group 'com.mr.flutter.plugin.file_picker_patch'
 version '1.0-SNAPSHOT'
 
 buildscript {

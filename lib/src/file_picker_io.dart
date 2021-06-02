@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:file_picker/file_picker.dart';
-import 'package:file_picker/src/platform_file.dart';
+import 'package:file_picker_patch/file_picker.dart';
+import 'package:file_picker_patch/src/platform_file.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 

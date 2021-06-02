@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:file_picker/file_picker.dart';
+import 'package:file_picker_patch/file_picker.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import 'file_picker_io.dart';

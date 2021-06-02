@@ -1,7 +1,7 @@
 name: file_picker_patch
 description: A patch over the file_picker plugin which is a package that allows you to use a native file explorer to pick single or multiple absolute file paths, with extension filtering support.
 homepage: https://github.com/saurabhdtu/file_picker_patch
-version: 1.0.0
+version: 1.0.0+1
 
 dependencies:
   flutter:
@@ -27,7 +27,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.mr.flutter.plugin.filepicker_patch
+        package: com.mr.flutter.plugin.file_picker_patch
         pluginClass: FilePickerPlugin
       ios:
         pluginClass: FilePickerPlugin
