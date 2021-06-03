@@ -9,10 +9,11 @@ Pod::Spec.new do |s|
 A new flutter plugin project.
                        DESC
   s.homepage         = 'http://example.com'
-  s.license          = { :file => '../LICENSE' }
+  s.license          = { :file => '../LICENSE', :type=>"MIT" }
   s.author           = { 'Your Company' => 'email@example.com' }
-  s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.platform     = :ios, "8.0"
+  s.source       = { :path => "." }
+  s.source_files = "ios", "ios/**/*.{h,m}"
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.dependency 'DKImagePickerController/PhotoGallery'
